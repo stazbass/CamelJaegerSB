@@ -5,6 +5,6 @@ import org.springframework.stereotype.Component;
 @Component("outBean")
 public class OutBean {
     public void accept(String value){
-        System.out.println(value);
+        System.out.println("Bean Accepted value: "+ value);
     }
 }
